@@ -161,7 +161,6 @@ class BaseBlock(GamePiece):
 
 class MineBlock(GamePiece):
     def __init__(self):
-        self.color = "black"
         self.is_cover = False
         self.is_game_end = False
 
