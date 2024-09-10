@@ -101,9 +101,6 @@ class MineBlockInfo(BlockInfo):
     def covered_mine():
         return MineBlockInfo(is_reveal=False, is_covered=True)
 
-    @staticmethod
-    def uncovered_mine():
-        return MineBlockInfo(is_reveal=True, is_covered=False)
 
 
 class BaseBlock(GamePiece):
