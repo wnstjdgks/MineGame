@@ -31,7 +31,7 @@ class MainUI(QWidget):
         layout.addWidget(medium_button)
         layout.addWidget(hard_button)
 
-        layout.addWidget(QLabel("Or Enter Custom Settings:"))
+        layout.addWidget(QLabel("Enter Custom Settings:"))
 
         # 사용자 게임을 위한 레이아웃, 텍스트 라인 설정
         form_layout = QFormLayout()
