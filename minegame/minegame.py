@@ -72,17 +72,11 @@ class BaseBlockInfo(BlockInfo):
     def covered_block():
         return BaseBlockInfo(is_reveal=False, is_covered=True, near_mine_count=0)
 
-    @staticmethod
-    def covered_block_with_mines(near_mine_count):
-        return BaseBlockInfo(is_reveal=False, is_covered=True, near_mine_count=near_mine_count)
 
     @staticmethod
     def revealed_block(near_mine_count):
         return BaseBlockInfo(is_reveal=True, is_covered=False, near_mine_count=near_mine_count)
 
-    @staticmethod
-    def zero_mine_revealed_block():
-        return BaseBlockInfo(is_reveal=True, is_covered=False, near_mine_count=0)
 
 
 class MineBlockInfo(BlockInfo):
