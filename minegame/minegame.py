@@ -77,7 +77,7 @@ class BaseBlockInfo(BlockInfo):
     def revealed_block(near_mine_count):
         return BaseBlockInfo(is_reveal=True, is_covered=False, near_mine_count=near_mine_count)
 
-
+    print()
 
 class MineBlockInfo(BlockInfo):
     def __init__(self, is_reveal, is_covered):
